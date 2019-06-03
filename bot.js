@@ -136,25 +136,6 @@ client.on("message", msg => {
     });
 
 
-
-
-////////////EVERYONE ENGELLE/////////
-client.on('message', message => {
-  if (message.content.includes('@everyone')) {
-    message.reply(`⚠️Lütfen **everyone** Kullanmayınız.!!`)
-    message.delete()
-  }
-});
-client.on('message', message => {
-  if (message.content.includes('@here')) {
-    message.reply(`⚠️Lütfen **here** Kullanmayınız.!!`)
-    message.delete()
-  }
-});
-//XiR
-
-
-
 ////////INVITE LOGGER///////////
 
 const invites = {};
