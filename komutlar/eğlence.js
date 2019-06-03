@@ -14,18 +14,7 @@ exports.run = (client, message, args) => {
     .addField('b*çay', 'Çay | Milli Içeceklerden Biri Çay!')
     .addField('b*dcnitro', 'Discord Nitro | Nitro Çerçeve')
     .addField('b*fbi', 'FBI | FBI OPEN DOOR')
-    .addField('b*fdans', 'Fortnite Dans | Fortnite Dans Gifleri')
-    .addField('b*kafadansı', 'Hz.Yasuo | Hz.Yasuo Kafa dansı')
-    .addField('b*kaçcm', 'Kaç cm ? | Malafatın Boyu')
-    .addField('b*mc-ödül', 'Minecraft Ödül | Minecraft Ödülü Kazanırsın')
-    .addField('b*nah <@kişi>', 'Nah Çekersin | Istediğin Kişiye Nah Çeker')
-    .addField('b*stresçarkı', 'Stres Atmalık | Stres Çarkı Çevirir')
-    .addField('b*tr', 'Türk Bayraklı Çerçeve | Türk Bayraklı Çerçeve Yapar')
-    .addField('b*kartopu', 'Kartopu | Kartopu Savası')
-    .addField('b*saat', 'Saat | Türkiye Saatini Gösterir')
-    .addField('b*troll', 'Troll | Troll Gif')
-    .addField('b*söv <@kişi>', 'Kişiye Söver')
-        .addField(`» Linkler`, `[Bot Davet Linki](https://discordapp.com/oauth2/authorize?client_id=${botid}&scope=bot&permissions=8) **|** [Destek Sunucusu](https://discord.gg/) **|** [Bota Oy Ver (Vote)](https://discordbots.org/bot/${botid}/vote)`)//websiteniz yoksa  **|** [Web Sitesi]() yeri silebilirsiniz
+    .addField(`» Linkler`, `[Bot Davet Linki](https://discordapp.com/oauth2/authorize?client_id=${botid}&scope=bot&permissions=8) **|** [Destek Sunucusu](https://discord.gg/) **|** [Bota Oy Ver (Vote)](https://discordbots.org/bot/${botid}/vote)`)//websiteniz yoksa  **|** [Web Sitesi]() yeri silebilirsiniz
     message.channel.sendEmbed(embed);
 
 };
