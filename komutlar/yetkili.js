@@ -22,7 +22,7 @@ exports.run = (client, message, args) => {
     .addField('b*unmute <@kişi>', 'Kişinin Susturması Kalkar | Ağzı Tıkalıysa Kalkar')  
     .addField('b*temizle', 'Temizleyici | Sohbet Kanalları Temizler MAX 5000')
     .addField('b*çekiliş', 'Çekiliş | Çekiliş Yapar')
-    .addField(`» Linkler`, `[Bot Davet Linki](https://discordapp.com/oauth2/authorize?client_id=${BOTUNUZID}&scope=bot&permissions=8) **|** [Destek Sunucusu](https://discord.gg/) **|** [Bota Oy Ver (Vote)](https://discordbots.org/bot/${BOTID}/vote) **|** [Web Sitesi]()`)//websiteniz yoksa  **|** [Web Sitesi]() yeri silebilirsiniz
+    .addField(`» Linkler`, `[Bot Davet Linki](https://discordapp.com/oauth2/authorize?client_id=${botid}&scope=bot&permissions=8) **|** [Destek Sunucusu](https://discord.gg/) **|** [Bota Oy Ver (Vote)](https://discordbots.org/bot/${botid}/vote) **|** [Web Sitesi]()`)//websiteniz yoksa  **|** [Web Sitesi]() yeri silebilirsiniz
     message.channel.sendEmbed(embed);
 
 };

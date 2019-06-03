@@ -19,7 +19,7 @@ exports.run = (client, message, args) => {
     .addField('b*kuyruk', 'Müzik Sırasını Gösterir🎵')
     .addField('b*radyo <1,2,3,4,5,6>', 'Radyo Açar 📟')
     .addField('Bot Sahibi :  Heratixcsgp,KaraGergedan', '.')
-    .addField(`» Linkler`, `[Bot Davet Linki](https://discordapp.com/oauth2/authorize?client_id=${BOTID}&scope=bot&permissions=8) **|** [Destek Sunucusu](https://discord.gg/) **|** [Bota Oy Ver (Vote)](https://discordbots.org/bot/${BOTID}/vote)`)//websiteniz yoksa  **|** [Web Sitesi]() yeri silebilirsiniz
+    .addField(`» Linkler`, `[Bot Davet Linki](https://discordapp.com/oauth2/authorize?client_id=${botid}&scope=bot&permissions=8) **|** [Destek Sunucusu](https://discord.gg/) **|** [Bota Oy Ver (Vote)](https://discordbots.org/bot/${botid}/vote)`)//websiteniz yoksa  **|** [Web Sitesi]() yeri silebilirsiniz
     message.channel.sendEmbed(embed);
 
 };
