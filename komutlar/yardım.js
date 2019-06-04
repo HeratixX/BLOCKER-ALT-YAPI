@@ -10,7 +10,7 @@ exports.run = async (client, message, params, args) => {
   .setColor(0x36393E)
       .setAuthor(`BlockeR`, client.user.avatarURL)
       .setThumbnail(client.user.avatarURL)
-      .addField(`BlockeR - Yardım`, `:white_small_square: | **b*ayarlar**: Sunucunuz için Ayar Komutlarını Gösterir.!\n:white_small_square: | **b*eğlence**: Eğlenmek için bulunan komutlar!\n:white_small_square: | **b*eğlence2**: Eğlence Menüsünün Devamı!\n:white_small_square: | **b*yetkili**: Sunucuyu yönetmek için gerekli olan komutlar!\n:white_small_square: | **b*kullanıcı**: Kullanıcılar için komutlar.\n:white_small_square: | **b*müzik**: Müzik ruhun gıdasıdır.`)
+      .addField(`BlockeR - Yardım`, `:white_small_square: | **b*ayarlar**: Sunucunuz için Ayar Komutlarını Gösterir.!\n:white_small_square: | **b*eğlence**: Eğlenmek için bulunan komutlar!\n:white_small_square: | **b*yetkili**: Sunucuyu yönetmek için gerekli olan komutlar!\n:white_small_square: | **b*kullanıcı**: Kullanıcılar için komutlar.\n:white_small_square: | **b*müzik**: Müzik ruhun gıdasıdır. | **b*botayarları**: Botun ANA Ayarları.\n:white_small_square:`)
       .setFooter(`${message.author.username} tarafından istendi.`, message.author.avatarURL)
   return message.channel.sendEmbed(yardım);
 

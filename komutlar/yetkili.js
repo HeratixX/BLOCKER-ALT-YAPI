@@ -11,7 +11,6 @@ exports.run = (client, message, args) => {
     const embed = new Discord.RichEmbed()
     .setColor("RANDOM")
     .setAuthor(`${client.user.username} Yetkili Komutları`)
-    .addField('Bot Sahibi : HeratixX,KarGergedan', 'İletişim : Heratixcsgo#9224')
     .addField('b*ban <@kisi>', 'Kişiyi Banlar | Kuralları Çiğneyen BANLANIR')
     .addField('b*sa-as <aç-kapat>', 'Selam Vermeyi Açıp Kapatır.') 
     .addField('b*kick <@kisi>', 'Kişiyi Sunucudan Atar | Sunucudan Uyarma Amaçlı Atar')
@@ -22,6 +21,11 @@ exports.run = (client, message, args) => {
     .addField('b*unmute <@kişi>', 'Kişinin Susturması Kalkar | Ağzı Tıkalıysa Kalkar')  
     .addField('b*temizle', 'Temizleyici | Sohbet Kanalları Temizler MAX 5000')
     .addField('b*çekiliş', 'Çekiliş | Çekiliş Yapar')
+    .addField('b*oylama <isim>', 'Oylama Yapar')
+    .addField('b*ikurulum', 'Gelişmiş İstatistik Kurar | NasılKurulur.md Oku')
+    .addField('b*yazı-kanal-aç', 'Metin Kanalı Oluşturur')
+    .addField('b*ses-kanal-aç', 'Ses Kanalı Oluşturur')
+    .addField('b*sustur-rol-ayarla', 'Sustur Rolü Belirler')
     .addField(`» Linkler`, `[Bot Davet Linki](https://discordapp.com/oauth2/authorize?client_id=${botid}&scope=bot&permissions=8) **|** [Destek Sunucusu](https://discord.gg/) **|** [Bota Oy Ver (Vote)](https://discordbots.org/bot/${botid}/vote) **|** [Web Sitesi]()`)//websiteniz yoksa  **|** [Web Sitesi]() yeri silebilirsiniz
     message.channel.sendEmbed(embed);
 

@@ -11,6 +11,7 @@ exports.run = (client, message, args) => {
     .addField('b*reklam-engelle <aç-kapat>', 'Reklam Engel | Açık Olduğu Sürece Kimse Reklam Yapamaz')
     .addField('b*everyone-engelle <aç-kapat>', 'Everyone & Here Engel | Everyone & Here Yasaklar ')
     .addField('b*capslock-engelle <aç-kapat>', 'Büyük HARF Engellemeyi Açıp Kapatır.')
+    .addField('b*sayaç sayı #kanal', 'Sayaç Ayarlar')
     .addField('b*davetlog', 'Kim Kimi Çağırmış Onu Gösterir.')
     .addField('b*ultrasohbettemizleyici aç-kapat', 'Ultra Sohbet Temizleyici')
     .addField('b*giriş-çıkış-ayarla #kanal', 'Resimli Hoş Geldin & Güle Güle Ayarlar!    「🚪」gelen-giden Adında Kanal Oluştursanız Daha İyisini Görürsünüz!!!!!!! ')

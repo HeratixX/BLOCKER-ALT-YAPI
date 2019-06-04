@@ -1,25 +1,24 @@
 const Discord = require('discord.js');
 
-let botid = ('BOTID') //bu yere botun id'sini yapÃ½Ã¾tÃ½rÃ½n.
-//eÃ°er botunuz dbl(discord bot list) de yoksa Bota Oy Ver (Vote) olmucaktÃ½r.
+let botid = ('BOTID') //bu yere botun id'sini yapıştırın.
+//eğer botunuz dbl(discord bot list) de yoksa Bota Oy Ver (Vote) olmucaktır.
 
 exports.run = (client, message, args) => {
     const embed = new Discord.RichEmbed()
     .setColor("RED")
-    .setAuthor(`${client.user.username} EÃ°lence KomutlarÃ½`)
-    .addField('Bot Sahibi : HeratixX,KaraGergedan', 'ÃletiÃ¾im : Heratixcsgo#9224')
+    .setAuthor(`${client.user.username} Eğlence Komutları`)
     .addField('b*fdans', 'Fortnite Dans | Fortnite Dans Gifleri')
-    .addField('b*kafadansÄ±', 'Hz.Yasuo | Hz.Yasuo Kafa dansÄ±')
-    .addField('b*kaÃ§cm', 'KaÃ§ cm ? | MalafatÄ±n Boyu')
-    .addField('b*mc-Ã¶dÃ¼l', 'Minecraft Ã–dÃ¼l | Minecraft Ã–dÃ¼lÃ¼ KazanÄ±rsÄ±n')
-    .addField('b*nah <@kiÅŸi>', 'Nah Ã‡ekersin | IstediÄŸin KiÅŸiye Nah Ã‡eker')
-    .addField('b*stresÃ§arkÄ±', 'Stres AtmalÄ±k | Stres Ã‡arkÄ± Ã‡evirir')
-    .addField('b*tr', 'TÃ¼rk BayraklÄ± Ã‡erÃ§eve | TÃ¼rk BayraklÄ± Ã‡erÃ§eve Yapar')
-    .addField('b*kartopu', 'Kartopu | Kartopu SavasÄ±')
-    .addField('b*saat', 'Saat | TÃ¼rkiye Saatini GÃ¶sterir')
+    .addField('b*kafadansı', 'Hz.Yasuo | Hz.Yasuo Kafa dansı')
+    .addField('b*kaçcm', 'Kaç cm ? | Malafatın Boyu')
+    .addField('b*mc-ödül', 'Minecraft Ödül | Minecraft Ödülü Kazanırsın')
+    .addField('b*nah <@kişi>', 'Nah Çekersin | Istediğin Kişiye Nah Çeker')
+    .addField('b*stresçarkı', 'Stres Atmalık | Stres Çarkı Çevirir')
+    .addField('b*tr', 'Türk Bayraklı Çerçeve | Türk Bayraklı Çerçeve Yapar')
+    .addField('b*kartopu', 'Kartopu | Kartopu Savası')
+    .addField('b*saat', 'Saat | Türkiye Saatini Gösterir')
     .addField('b*troll', 'Troll | Troll Gif')
-    .addField('b*sÃ¶v <@kiÅŸi>', 'KiÅŸiye SÃ¶ver')    
-    .addField(`Â» Linkler`, `[Bot Davet Linki](https://discordapp.com/oauth2/authorize?client_id=${botid}&scope=bot&permissions=8) **|** [Destek Sunucusu](https://discord.gg/) **|** [Bota Oy Ver (Vote)](https://discordbots.org/bot/${botid}/vote)`)//websiteniz yoksa  **|** [Web Sitesi]() yeri silebilirsiniz
+    .addField('b*söv <@kişi>', 'Kişiye Söver') 
+    .addField(`» Linkler`, `[Bot Davet Linki](https://discordapp.com/oauth2/authorize?client_id=${botid}&scope=bot&permissions=8) **|** [Destek Sunucusu](https://discord.gg/) **|** [Bota Oy Ver (Vote)](https://discordbots.org/bot/${botid}/vote)`)//websiteniz yoksa  **|** [Web Sitesi]() yeri silebilirsiniz
     message.channel.sendEmbed(embed);
 
 };
@@ -32,7 +31,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'eÄŸlence2',
+  name: 'eğlence2',
   description: '',
   usage: ''
 };

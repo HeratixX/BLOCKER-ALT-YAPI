@@ -12,11 +12,12 @@ exports.run = (client, message, args) => {
     .addField('b*rapor <@kisi> <sebeb>', 'Kişiyi Şikayet Eder')
     .addField('b*havadurumu <Şehir>', 'Seçilen Şehrin Hava Durumu')
     .addField('b*nsfw-gif', '+18 Kanalda Porno Grafik (GIF)')
+    .addField('b*tavsiye', 'Bot İçin Tavsiye Sölersiniz ')   
     .addField('b*hg <@kisi>', 'Resimli Hoş Geldin')
+    .addField('b*twitch-gif', 'Twitch Gifleri')
     .addField('b*davet', 'Bulunduğunuz Sunucunun Davet Linki')
     .addField('b*profil', 'Seviye System | XP Profilini Gösterir')
-    .addField('b*bayraktr', 'TÜRK BAYRAĞI !')
-    .addField('b*bayrakaz', 'AZERBEYCAN BAYRAĞI !')
+    .addField('b*sor <soru>', 'Bota Soru Sorarsın')
     .addField('b*hastebin <kod|başlık>', 'Hastebin | Kod Sitesi ')
     .addField(`» Linkler`, `[Bot Davet Linki](https://discordapp.com/oauth2/authorize?client_id=${botid}&scope=bot&permissions=8) **|** [Destek Sunucusu](https://discord.gg/BAĞLANTI) **|** [Bota Oy Ver (Vote)](https://discordbots.org/bot/${botid}/vote) **|** [Web Sitesi]()`)//websiteniz yoksa  **|** [Web Sitesi]() yeri silebilirsiniz
     message.channel.sendEmbed(embed);
@@ -31,7 +32,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'komutlar',
+  name: 'kullanıcı',
   description: '',
   usage: ''
 };
