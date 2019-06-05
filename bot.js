@@ -99,30 +99,29 @@ client.unload = command => {
   });
 };
 
-///////////////////// Gelişmiş İstatistik ///////////////////
+///////////////////// TEST ///////////////////
 client.on('ready', msg => {
-    let kanal1 = client.channels.find(c => c.id === '585493615263088660'); // Ses kanalı 1 İD
-    let kanal2 = client.channels.find(c => c.id === '585493615510290448'); // Ses Kanalı 2 İD
-    let kanal3 = client.channels.find(c => c.id === '585493616189898772'); // Ses Kanalı 3 İD
-    let kanal4 = client.channels.find(c => c.id === '585493616622043147'); // Ses Kanalı 4 İD
-    let kanal5 = client.channels.find(c => c.id === '585493616714186768'); // Ses Kanalı 5 İD
-    let kanal6 = client.channels.find(c => c.id === '585493617762762762'); // Ses Kanalı 6 İD
-    let kanal7 = client.channels.find(c => c.id === '585493618178129935'); // Ses Kanalı 6 İD
-    let kanal8 = client.channels.find(c => c.id === '585493618945556491'); // Ses Kanalı 6 İD
-    setInterval(() => {
-        const duration = moment.duration(client.uptime).format(" D [g], H [s], m [dk], s [sn]");
-        kanal1.setName(`▬▬▬▬▬▬▬▬▬▬`, 'voice');
-        kanal2.setName(`Toplam Sunucu: ${client.guilds.size}`, 'voice');
-        kanal3.setName(`Kullanıcılar:` + client.guilds.reduce((a, b) => a + b.memberCount, 0), 'voice');
-        kanal4.setName('Toplam Kanal:' + client.channels.size, 'voice');
+  let kanal1 = client.channels.find(c => c.id === '585493615263088660'); // Ses kanalı 1 İD
+  let kanal2 = client.channels.find(c => c.id === '585493615510290448'); // Ses Kanalı 2 İD
+  let kanal3 = client.channels.find(c => c.id === '585493616189898772'); // Ses Kanalı 3 İD
+  let kanal4 = client.channels.find(c => c.id === '585493616622043147'); // Ses Kanalı 4 İD
+  let kanal5 = client.channels.find(c => c.id === '585493616714186768'); // Ses Kanalı 5 İD
+  let kanal6 = client.channels.find(c => c.id === '585493617762762762'); // Ses Kanalı 6 İD
+  let kanal7 = client.channels.find(c => c.id === '585493618178129935'); // Ses Kanalı 6 İD
+  let kanal8 = client.channels.find(c => c.id === '585493618945556491'); // Ses Kanalı 6 İD
+setInterval(() => {
+  const duration = moment.duration(client.uptime).format(" D [g], H [s], m [dk], s [sn]");
+kanal1.setName(`▬▬▬▬▬▬▬▬▬▬`, 'voice');
+  kanal2.setName(`Toplam Sunucu: ${client.guilds.size}`, 'voice');
+    kanal3.setName(`Kullanıcılar:` + client.guilds.reduce((a, b) => a + b.memberCount, 0),  'voice');
+      kanal4.setName('Toplam Kanal:' + client.channels.size , 'voice');
         kanal5.setName(`Çalışma Süresi: ${duration}`, 'voice');
-        kanal6.setName('Ping: ' + client.ping, 'voice');
-        kanal7.setName('Owner: ', 'voice');
-        kanal8.setName(`▬▬▬▬▬▬▬▬▬▬`, 'voice')
+          kanal6.setName('Ping: ' + client.ping , 'voice');
+            kanal7.setName('Bot Sahipleri: Heratix,KaraGergedan','voice');
+              kanal8.setName(`▬▬▬▬▬▬▬▬▬▬`, 'voice')
 
-    }, 1 * 1000);
+ },1 * 1000);
 });
-//Code OWNER BumbleBee
 
 ///////////////////// OTO TAG /////////////////////////////
 client.on('guildMemberAdd', async member => {
