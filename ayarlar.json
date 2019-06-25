@@ -1,6 +1,5 @@
 {
-  "prefix": "PREFÝX",
-  "sahip":  "SAHÝBÝN ÝD",
-  "token": "BOTUN TOKENÝ",
-  "GOOGLE_API_KEY": "AIzaSyCxmDPjwJWhqKMg9FvZ-YFB5TX9__78V4Y"
+  "prefix": "PREFIX",
+  "sahip":  "SAHIP ID",
+  "token": "BOTUN TOKEN"
 }
