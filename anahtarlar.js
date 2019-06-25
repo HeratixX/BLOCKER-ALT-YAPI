@@ -1,3 +1,0 @@
-{
-"GOOGLE_API_KEY": "AIzaSyCxmDPjwJWhqKMg9FvZ-YFB5TX9__78V4Y"
-}
